@@ -381,7 +381,7 @@ export default function PageBiodataGuru() {
 														>
 															<Card className="rounded-none shadow-none border-none bg-[#EBF8FF]">
 																<CardHeader>
-																	<h1 className="font-bold text-2xl">Tambah Data Serifikasi Guru</h1>
+																	<h1 className="font-bold text-2xl">Tambah Data Guru </h1>
 																</CardHeader>
 																<CardContent className="px-1 pb-1">
 																	<form className="bg-white rounded-md p-4 flex flex-col gap-4 overflow-y-auto max-h-[60vh]">
