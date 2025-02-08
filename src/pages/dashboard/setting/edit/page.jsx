@@ -166,7 +166,7 @@ export default function PageSettingEdit() {
 						/>
 					</div>
 					<div className="grid w-full items-center gap-1.5 mb-6">
-						<Label htmlFor="jarak_absensi">Jarak Absensi</Label>
+						<Label htmlFor="jarak_absensi">Jarak Presensi</Label>
 						<Input
 							type="jarak_absensi"
 							id="jarak_absensi"
@@ -194,7 +194,7 @@ export default function PageSettingEdit() {
 					</div>
 
 					<div className="grid w-full items-center gap-3 mb-6">
-						<Label htmlFor="izinkan_guru">Izinkan guru untuk menggunakan photo ketika absen.</Label>
+						<Label htmlFor="izinkan_guru">Izinkan guru untuk menggunakan photo ketika presensi.</Label>
 						<RadioGroup
 							id="izinkan_guru"
 							defaultValue="izinkan_guru_ya"
@@ -217,7 +217,7 @@ export default function PageSettingEdit() {
 						</RadioGroup>
 					</div>
 					<div className="grid w-full items-center gap-3 mb-6">
-						<Label htmlFor="izinkan_siswa">Izinkan siswa untuk menggunakan photo ketika absen.</Label>
+						<Label htmlFor="izinkan_siswa">Izinkan siswa untuk menggunakan photo ketika presensi.</Label>
 						<RadioGroup
 							id="izinkan_siswa"
 							defaultValue="izinkan_siswa_ya"
@@ -240,7 +240,7 @@ export default function PageSettingEdit() {
 						</RadioGroup>
 					</div>
 					<div className="grid w-full items-center gap-3 mb-6">
-						<Label htmlFor="kunci_lokasi">Kunci lokasi absen.</Label>
+						<Label htmlFor="kunci_lokasi">Kunci lokasi presensi.</Label>
 						<RadioGroup
 							id="kunci_lokasi"
 							defaultValue="kunci_lokasi_ya"

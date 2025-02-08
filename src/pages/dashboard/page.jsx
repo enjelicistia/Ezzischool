@@ -17,18 +17,18 @@ import { toast } from "sonner";
 import { Label as LabelInput } from "@/components/ui/label";
 
 const chartData = [
-	{ month: "JANUARI", absen: 29, tidak_absen: 22 },
-	{ month: "FEBRUARI", absen: 21, tidak_absen: 17 },
-	{ month: "MARET", absen: 39, tidak_absen: 31 },
-	{ month: "APRIL", absen: 21, tidak_absen: 17 },
-	{ month: "MEI", absen: 29, tidak_absen: 24 },
-	{ month: "JUNI", absen: 21, tidak_absen: 17 },
-	{ month: "JULI", absen: 38, tidak_absen: 31 },
-	{ month: "AGUSTUS", absen: 29, tidak_absen: 24 },
-	{ month: "SEPTEMBER", absen: 21, tidak_absen: 17 },
-	{ month: "OKTOBER", absen: 21, tidak_absen: 17 },
-	{ month: "NOVERMBER", absen: 39, tidak_absen: 31 },
-	{ month: "DESEMBER", absen: 29, tidak_absen: 24 },
+	{ month: "JANUARI", presensi: 29, tidak_presensi: 22 },
+	{ month: "FEBRUARI", presensi: 21, tidak_presensi: 17 },
+	{ month: "MARET", presensi: 39, tidak_presensi: 31 },
+	{ month: "APRIL", presensi: 21, tidak_presensi: 17 },
+	{ month: "MEI", presensi: 29, tidak_presensi: 24 },
+	{ month: "JUNI", presensi: 21, tidak_presensi: 17 },
+	{ month: "JULI", presensi: 38, tidak_presensi: 31 },
+	{ month: "AGUSTUS", presensi: 29, tidak_presensi: 24 },
+	{ month: "SEPTEMBER", presensi: 21, tidak_presensi: 17 },
+	{ month: "OKTOBER", presensi: 21, tidak_presensi: 17 },
+	{ month: "NOVERMBER", presensi: 39, tidak_presensi: 31 },
+	{ month: "DESEMBER", presensi: 29, tidak_presensi: 24 },
 ];
 
 const chartDataSiswa = [
@@ -37,12 +37,12 @@ const chartDataSiswa = [
 ];
 
 const chartConfig = {
-	absen: {
-		label: "Absen",
+	presensi: {
+		label: "Presensi",
 		color: "#3182CE",
 	},
-	tidak_absen: {
-		label: "Tidak Absen",
+	tidak_presensi: {
+		label: "Tidak Presensi",
 		color: "#9DECF9",
 	},
 };
@@ -185,12 +185,12 @@ export default function PageDashboard() {
 											content={<ChartTooltipContent indicator="dashed" />}
 										/>
 										<Bar
-											dataKey="absen"
+											dataKey="prsensi"
 											fill="#3182CE"
 											radius={0}
 										/>
 										<Bar
-											dataKey="tidak_absen"
+											dataKey="tidak_presensi"
 											fill="#9DECF9"
 											radius={0}
 										/>
@@ -201,20 +201,20 @@ export default function PageDashboard() {
 								<div className="w-full flex flex-row justify-center content-center text-sm gap-2">
 									<div className="flex flex-row gap-2 items-center">
 										<div className="w-2 h-2 rounded-full bg-[#3182CE]" />
-										<p>Siswa Absen</p>
+										<p>Siswa Presensi</p>
 									</div>
 									<div className="flex flex-row gap-2 items-center">
 										<div className="w-2 h-2 rounded-full bg-[#9DECF9]" />
-										<p>Siswa Tidak Absen</p>
+										<p>Siswa Tidak Presensi</p>
 									</div>
 								</div>
 								<div className="w-full grid grid-cols-2 xl:grid-cols-2 gap-4">
 									<div className="bg-[#F7F7F7] p-4">
-										<h1 className="text-gray-500 mb-2 text-sm">Siswa Absen Tepat Waktu</h1>
+										<h1 className="text-gray-500 mb-2 text-sm">Siswa Presensi Tepat Waktu</h1>
 										<p className="font-semibold text-2xl">40</p>
 									</div>
 									<div className="bg-[#F7F7F7] p-4">
-										<h1 className="text-gray-500 mb-2 text-sm">Siswa Absen Terlambat</h1>
+										<h1 className="text-gray-500 mb-2 text-sm">Siswa Presensi Terlambat</h1>
 										<p className="font-semibold text-2xl">10</p>
 									</div>
 								</div>
