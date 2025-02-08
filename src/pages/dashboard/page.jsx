@@ -185,7 +185,7 @@ export default function PageDashboard() {
 											content={<ChartTooltipContent indicator="dashed" />}
 										/>
 										<Bar
-											dataKey="prsensi"
+											dataKey="presensi"
 											fill="#3182CE"
 											radius={0}
 										/>
