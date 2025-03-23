@@ -165,11 +165,11 @@ export default function PageTahunAjaran() {
 														</Popover>
 													</div>
 													<div className="grid w-full items-center gap-1.5">
-														<Label htmlFor="description">Deskripsi</Label>
+														<Label htmlFor="description">Keterangan</Label>
 														<Textarea
 															id="description"
 															name="description"
-															placeholder="Deskripsi"
+															placeholder="Keterangan"
 															className="group-data-[invalid=true]/field:border-destructive focus-visible:group-data-[invalid=true]/field:ring-destructive min-h-24"
 														/>
 													</div>
@@ -337,11 +337,11 @@ export default function PageTahunAjaran() {
 																</Popover>
 															</div>
 															<div className="grid w-full items-center gap-1.5">
-																<Label htmlFor="description">Deskripsi</Label>
+																<Label htmlFor="description">Keterangan</Label>
 																<Textarea
 																	id="description"
 																	name="description"
-																	placeholder="Deskripsi"
+																	placeholder="Keterangan"
 																	className="group-data-[invalid=true]/field:border-destructive focus-visible:group-data-[invalid=true]/field:ring-destructive min-h-24"
 																	value="Text"
 																/>
