@@ -245,8 +245,8 @@ export default function PageEkstrakurikuler() {
 																<TableRow className="bg-utama/50 border border-textUtama">
 																	<TableHead className="w-16 text-black font-bold text-sm text-center text-nowrap">&nbsp;</TableHead>
 																	<TableHead className="w-[200px] text-black font-bold text-sm text-center text-nowrap">NAMA SISWA</TableHead>
-																	<TableHead className="w-[200px] text-black font-bold text-sm text-center text-nowrap">NISN</TableHead>
 																	<TableHead className="w-[200px] text-black font-bold text-sm text-center text-nowrap">NIS</TableHead>
+																	<TableHead className="w-[200px] text-black font-bold text-sm text-center text-nowrap">KELAS</TableHead>
 																</TableRow>
 															</TableHeader>
 															<TableBody>
@@ -513,8 +513,8 @@ export default function PageEkstrakurikuler() {
 																		<TableRow className="bg-utama/50 border border-textUtama">
 																			<TableHead className="w-16 text-black font-bold text-sm text-center text-nowrap">&nbsp;</TableHead>
 																			<TableHead className="w-[200px] text-black font-bold text-sm text-center text-nowrap">NAMA SISWA</TableHead>
-																			<TableHead className="w-[200px] text-black font-bold text-sm text-center text-nowrap">NISN</TableHead>
 																			<TableHead className="w-[200px] text-black font-bold text-sm text-center text-nowrap">NIS</TableHead>
+																			<TableHead className="w-[200px] text-black font-bold text-sm text-center text-nowrap">KELAS</TableHead>
 																		</TableRow>
 																	</TableHeader>
 																	<TableBody>
