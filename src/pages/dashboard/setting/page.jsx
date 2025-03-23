@@ -15,7 +15,7 @@ export default function PageSetting() {
 			<h1 className="font-bold text-xl">Settings</h1>
 			<div className="flex justify-between bg-utama/10 shadow-md p-4 rounded-lg items-center">
 				<div className="flex flex-col gap-4">
-					<h1 className="text-utama font-bold text-lg">Kelola Tingkat</h1>
+					<h1 className="text-utama font-bold text-lg">Kelola Jenjang</h1>
 					<RadioGroup
 						defaultValue="sd"
 						className="flex gap-4"
