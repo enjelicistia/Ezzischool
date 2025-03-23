@@ -332,7 +332,7 @@ export default function PageEkstrakurikuler() {
 						<TableHeader>
 							<TableRow className="bg-utama/50 border border-textUtama">
 								<TableHead className="text-black font-bold text-sm text-center text-nowrap">NO</TableHead>
-								<TableHead className="text-black font-bold text-sm text-center text-nowrap">EXTRAKURIKULER</TableHead>
+								<TableHead className="text-black font-bold text-sm text-center text-nowrap">EKSTRAKURIKULER</TableHead>
 								<TableHead className="text-black font-bold text-sm text-center text-nowrap">HARI</TableHead>
 								<TableHead className="text-black font-bold text-sm text-center text-nowrap">WAKTU</TableHead>
 								<TableHead className="text-black font-bold text-sm text-center text-nowrap">PENANGGUNG JAWAB</TableHead>
